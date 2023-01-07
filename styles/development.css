@@ -1,0 +1,72 @@
+*body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.section{
+    background-color: rgb(246, 242, 238);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 20px;
+    margin: 0px;
+}
+.btn-primary{
+   background: #FD6E0A;
+   height: 64px;
+   font-display: 70px;
+color: aliceblue;
+font-size: 20px;
+padding: 6px;}
+.section img{
+    height: 400px;
+}
+.section h1{
+    margin:0;
+    color: rgb(26, 22, 22); 
+    background-position: bottom-right;
+
+}
+.sub-section{
+    text-align: right;
+  text-decoration:rgb(26, 22, 22);
+}
+.what-i-d0{
+    margin-top: 130px;
+
+}
+.skills-container{
+    display: flex;
+}
+.skills{
+    background: #e5e0e0;
+    border-radius: 25px;
+}
+.skills-tital{
+    gap:5px;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+}
+.container{
+    
+    position: relative;
+    width: 20px;
+
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #5ebaec;
+    padding: 130px 200px;
+}
+.contact .section-tital{
+    text-align: center;
+}
+.contact input, textarea{
+    margin-bottom: 24px ;
+    border: 0;
+    width: 100%;
+}
+input{
+    height: 64px;
+}
